@@ -1,0 +1,29 @@
+{
+  "name": "@baselime/pino-transport",
+  "version": "0.1.0",
+  "description": "Ship logs from pino.js to Baselime",
+  "main": "dist/index.js",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "release": "release-it"
+  },
+  "author": "Thomas Ankcorn",
+  "license": "MIT",
+  "devDependencies": {
+    "@release-it/keep-a-changelog": "^4.0.0",
+    "@types/node": "^20.8.10",
+    "release-it": "^16.2.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
