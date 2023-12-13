@@ -4,6 +4,7 @@
   "description": "Instrument your TRPC Application with OpenTelemetry ",
   "main": "dist/index.js",
   "type": "module",
+  "keywords": ["OpenTelemetry", "TRPC", "Middleware", "Tracing"],
   "exports": {
     "import": "./dist/index.js",
     "require": "./dist/index.cjs"
