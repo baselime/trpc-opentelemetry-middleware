@@ -1,5 +1,5 @@
 {
-  "name": "@baselime/trpc-openetelemetry-middleware",
+  "name": "@baselime/trpc-opentelemetry-middleware",
   "version": "0.1.1",
   "description": "Instrument your TRPC Application with OpenTelemetry ",
   "main": "dist/index.js",
